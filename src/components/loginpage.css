@@ -1,0 +1,54 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #90caf9;
+  }
+  
+  .login-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 85px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+  
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0d47a1;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0px 0px 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
