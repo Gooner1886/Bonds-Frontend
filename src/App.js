@@ -1,10 +1,13 @@
-import './App.css';
-import LoginPage from './components/Loginpage';
+import "./App.css";
+import LoginPage from "./components/Loginpage";
+import { WithSubnavigation as PreLogin } from "./components/LandingPage/landingPage";
+
 
 function App() {
   return (
     <div className="App">
-      <LoginPage />
+      <PreLogin />
+      {/* <LoginPage /> */}
     </div>
   );
 }
