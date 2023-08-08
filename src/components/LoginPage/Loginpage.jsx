@@ -14,7 +14,6 @@ const LoginPage = () => {
 
   const handleLogin = (event) => {
     event.preventDefault();
-    
     console.log('Login data:', formData);
   };
 
