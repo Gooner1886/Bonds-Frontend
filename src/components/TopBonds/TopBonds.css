@@ -1,8 +1,17 @@
+.heading {
+  /* background-color: lightgoldenrodyellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-family: 'Poppins';
+  font-weight: 900;
+  font-size: xx-large;
+}
 .top-bonds {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: lightgoldenrodyellow;
-    
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: lightgoldenrodyellow; */
 }
