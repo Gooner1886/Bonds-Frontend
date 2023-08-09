@@ -1,66 +1,136 @@
 .app {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  }
-  
-  header, nav, footer {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  main {
-    padding: 2rem;
-  }
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+header,
+nav,
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
 button {
-    padding: 8px 16px;
-    margin: 5px;
-    background-color: #9f8fa2;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .table-container {
-    margin-top: 20px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
-  
-  .main {
-    padding: 20px;
-  }
-  
-  
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: #9f8fa2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.main {
+  padding: 20px;
+}
+
+.header {
+  background-color: #021428;
+  color: #fff;
+  padding: 20px 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.scrollable-table {
+  max-height: 400px;
+  /* Set your desired max height */
+  overflow-y: auto;
+}
+
+.table thead {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+/* .body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+} */
+
+.body {
+  height: 100%;
+  width: 100%;
+}
+
+.bodyh {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 200px;
+  right: 0px;
+  overflow: hidden;
+}
+
+.bodyc {
+  position: absolute;
+  top: 70px;
+  bottom: 60px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+}
+
+.bodyf {
+  position: absolute;
+  bottom: 0px;
+  height: 50px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+}

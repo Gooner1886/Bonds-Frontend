@@ -15,8 +15,6 @@ function Navigation() {
         MarketNews</Link>
       <Link className="list-group-item list-group-item-action" tag="a" to="/wishlist"  action>
         wishlist</Link>*/}
-      <Link className=" right" tag="a" to="/log-out"  action>
-        LogOut</Link>
     </ul>  
   );
 }
