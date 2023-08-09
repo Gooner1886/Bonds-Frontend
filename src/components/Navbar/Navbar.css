@@ -1,0 +1,29 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: lightblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.Navlinks {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: medium;
+  font-family: "Poppins";
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.Navlinks :hover {
+  color: darkslateblue;
+}

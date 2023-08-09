@@ -1,4 +1,5 @@
 import "./App.css";
+<<<<<<< HEAD
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer/Footer";
@@ -34,6 +35,15 @@ function App() {
       <div className="bodyf">
         <Footer />
       </div>
+=======
+// import LoginPage from "./components/Loginpage";
+import LandingPage from "./components/LandingPage/landingPage";
+
+function App() {
+  return (
+    <div className="App">
+      <LandingPage />
+>>>>>>> main
     </div>
   );
 }
