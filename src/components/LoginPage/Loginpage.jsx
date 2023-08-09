@@ -21,7 +21,7 @@ const LoginPage = () => {
 
     try {
       const response = await axios.post('http://localhost:9010/bonds/login', formData);
-      if (response.data == true) {
+      if (response.data === true) {
         alert("Login Successful")
         setLoginResult(response.data);
       }
