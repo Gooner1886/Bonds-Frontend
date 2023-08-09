@@ -1,0 +1,28 @@
+.bond-info {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-info {
+  background-color: rgb(219, 240, 236);
+  flex: 0.5;
+  
+}
+
+.pic-info {
+
+  flex: 0.5;
+padding: 10px;
+  background-color: rgb(216, 240, 216);
+  height: 100vh;
+}
+
+.pic-info-styling {
+    font-size: large;
+    font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+  
+}

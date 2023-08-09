@@ -1,0 +1,18 @@
+.card {
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 25%);
+  margin: 100px;
+  max-width: 350px;
+  padding: 10px;
+  transition: 0.09s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 12px;
+}
